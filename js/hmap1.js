@@ -25,7 +25,6 @@ function getArg(x) {
 
 let glob_annotate = getArg('annotate');
 let glob_testlike = getArg('testlike');
-let glob_lastdays = getArg('lastdays');
 let glob_testdays = getArg('testdays');
 
 let glob_data = null;
