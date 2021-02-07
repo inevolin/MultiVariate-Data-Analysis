@@ -362,7 +362,7 @@ function processData(data) {
 
     let rows = trace.y.length;
     // console.log(rows)
-    let height = 500+ rows * 15;
+    let height = 400+ rows * 15;
     let width = 900 + trace.x.length * 10;
 
     let graph_id = 'graph_A' ;
