@@ -1,4 +1,4 @@
-# Industrial-Data-Analysis
+# Industrial Data Analysis
 
 ## MultiVariate Anomaly Detection
 
