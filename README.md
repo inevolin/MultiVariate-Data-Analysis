@@ -2,4 +2,4 @@
 
 ## MultiVariate Anomaly Detection
 
-Heatmap: https://healzer.github.io/Industrial-Data-Analysis/grid_v1_demo.html
+Heatmap: https://healzer.github.io/Industrial-Data-Analysis/grid_v1_demo.html?lastdays=30&testdays=3
