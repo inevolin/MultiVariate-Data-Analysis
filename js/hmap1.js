@@ -39,7 +39,7 @@ $.ajaxSetup({
 
 function load_data() {
     $('#loader').show(); // show gif loader
-    $.getJSON("data.json", function(data) {
+    $.getJSON("hmap1_data.json", function(data) {
         const tmp = []
         for (const d of data) {
             if (!glob_testlike || d.test.includes(glob_testlike))
