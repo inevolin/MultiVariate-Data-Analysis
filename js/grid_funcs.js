@@ -24,6 +24,7 @@ function getArg(x) {
 }
 
 let glob_annotate = getArg('annotate');
+let glob_testlike = getArg('testlike');
 let glob_lastdays = getArg('lastdays');
 let glob_testdays = getArg('testdays');
 
@@ -39,7 +40,12 @@ $.ajaxSetup({
 function load_data() {
     $('#loader').show(); // show gif loader
     $.getJSON("data.json", function(data) {
-        glob_data = data;
+        const tmp = []
+        for (const d of data) {
+            if (!glob_testlike || d.test.includes(glob_testlike))
+                tmp.push(d)
+        }
+        glob_data = data = tmp;
         processData(data);
         $('#loader').hide();   
     });
