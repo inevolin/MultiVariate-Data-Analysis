@@ -4,7 +4,7 @@
 
 Discovering anomalies in complex multivariate and multidimensional data can be quite a challenge. Visualizing these anomalies can be even trickier, especially if you want to keep it simple without having to go over thousands of charts to filter out issues from false positives and noise. Using statistical methods we can aggregate complex data to be displayed on a single heatmap. By hovering over specific cells, we can quickly display the individual data on charts.
 
-Heatmap: https://healzer.github.io/Industrial-Data-Analysis/hmap1.html?testdays=3&testlike=1
+Heatmap: https://inevolin.github.io/Industrial-Data-Analysis/hmap1.html?testdays=3&testlike=1
 
 ![heatmap demo](img/hmap1.png)
 
