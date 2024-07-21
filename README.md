@@ -1,6 +1,6 @@
-# Industrial Data Analysis
+# MultiVariate Data Analysis
 
-## MultiVariate Anomaly Detection
+## Anomaly Detection
 
 Discovering anomalies in complex multivariate and multidimensional data can be quite a challenge. Visualizing these anomalies can be even trickier, especially if you want to keep it simple without having to go over thousands of charts to filter out issues from false positives and noise. Using statistical methods we can aggregate complex data to be displayed on a single heatmap. By hovering over specific cells, we can quickly display the individual data on charts.
 
